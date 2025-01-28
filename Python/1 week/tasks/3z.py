@@ -5,9 +5,6 @@
 import re
 
 a = input()
-
 a = a.strip()
-
 a = re.sub(r"\s+", "*", a)
-
 print(a)
